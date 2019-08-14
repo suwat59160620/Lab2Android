@@ -11,6 +11,15 @@
     <TextView
             android:text="@string/name"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/name_text" android:textSize="20sp"
-            android:textAlignment="center" android:textColor="@android:color/background_dark"/>
+            android:layout_height="wrap_content" android:id="@+id/name_text"
+            android:textAlignment="center"
+            style="@style/NameStyle"/>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/btn_star_big_on"
+            android:id="@+id/Star_image"
+            android:paddingTop="8dp"/>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 </LinearLayout>
